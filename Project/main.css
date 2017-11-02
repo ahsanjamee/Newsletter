@@ -1,0 +1,239 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+    
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+header h1 {
+    color: skyblue;
+  font-weight: 700;
+  margin: 0;
+}
+header #hb{
+    color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+    
+    font-size: 15px;
+  padding: 0 20px;
+  margin: 0;
+    
+}
+header .current a{
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+header a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+header .sub a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+section .row{
+    margin: 5px;
+    
+}
+
+
+.container{
+    background-color: whitesmoke;
+    border-bottom: skyblue 4px solid;
+    width: 100%;
+    padding: 10px;
+}
+.col-sm-3{
+    margin: auto;
+    padding-left: 100px;
+}
+.sub{
+    cursor: pointer;
+    color: red;
+    
+/*header ends*/  
+}
+section h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+   
+}
+.content h6{
+    text-align: center;
+    margin-bottom:  5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+}
+section h6 a{
+    color: blue;
+}
+section h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.col-sm-4{
+    margin-top: 0px;
+    
+}
+.content{
+    margin-left: 95px;
+    margin-right: 95px;
+}
+/*middle portion*/
+.midpor h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.midpor{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+}
+.midpor img{
+    margin-top: 10px;
+    max-height: 400px;
+}
+.midpor h6{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.midpor1{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+}
+.midpor1 h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.midpor1 img{
+    margin-top: 15px;
+    max-height: 400px;
+}
+.midpor1 h6{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.slide{
+    text-align: center;
+}
+.mySlides{
+    text-align: center;
+}
+
+footer p{
+   margin-top: 10px;
+   text-align: center;
+    color: white;
+    
+    
+}
+.foot{
+    border-top: 4px solid skyblue;
+    padding: 20px;
+    margin-top:50px;
+    background: grey;
+}
+
+/*Homa page ends...*/
+
+.news{
+    text-align: center;
+    margin: 70px 0;
+    color:white;
+    background-color: maroon;
+    border: white 10px solid;
+    border-left: white 400px solid;
+    border-right: white 400px solid;
+    border-bottom: white 1px solid;
+    
+    
+}
+.ent{
+    margin: 40px 0;
+}
+.butt{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#email{
+    padding: 5px 0 5px 0;
+}
+.comsec{
+    text-align: center;
+    background-color: lightgray;
+    
+    border-left: 400px solid white;
+    border-right: 400px solid white;
+    
+}
+.comsec h1{
+    margin-top: 20px;
+}
+.comsec textarea{
+    width : 300px;
+    height: 80px;
+    resize: none;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.comsec input{
+    width: 300px;
+    border: 1px solid black;
+}
+.comsec button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.cbox{
+    margin-left: 120px;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 6px;
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+}

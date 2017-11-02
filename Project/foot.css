@@ -1,0 +1,63 @@
+#wc{
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    font-family: roboto;
+    font-size: 50px;
+    margin-top: 20px;
+    border-left: white 100px solid;
+    border-right: white 100px solid;
+    
+}
+header .current a{
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.sub{
+    cursor: pointer;
+    color: red;
+    
+    
+}
+.box3{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    
+}
+
+.box3_1{
+    cursor: pointer;
+     margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.box3_2{
+    cursor: pointer;
+     margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.box_display :hover{
+    text-decoration: none;
+    
+    
+}
+.box_display{
+    display: flex;
+    padding: 10px;
+}
